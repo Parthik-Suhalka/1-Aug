@@ -1,0 +1,69 @@
+.data-input {
+    border-radius: 30px;
+}
+
+.data-button {
+    border-radius: 30px;
+}
+
+.carousel-inner img {
+    max-width: 29%;
+    height: auto;
+    margin: 5px auto;
+}
+
+#searchResults p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.movie-card {
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+}
+
+.movie-card:hover {
+    box-shadow: 0 10px 20px white;
+}
+
+.movie-card h5 {
+    font-size: 1rem;
+}
+
+
+
+.cast-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.movie-card .cast img {
+    max-width: 15px;
+    max-height: 15px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#movieCast {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+}
+
+.cast-card {
+    box-shadow: 0 0 20px white;
+    margin: 1px;
+}
+
+#movieOverview {
+    font-size: 20px;
+}
+
+#movieRating {
+    color: #d30a0a;
+}
